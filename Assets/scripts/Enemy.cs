@@ -6,7 +6,7 @@ public class Enemy : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("zombie"))
         {
-            Destroy(gameObject, 2f);
+            Destroy(gameObject, 0f);
         }
     }
 }
